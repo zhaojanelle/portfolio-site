@@ -3,27 +3,35 @@ layout: default
 ---
 
 <section>
-  <h2>Work</h2>
-
   <div class="grid pad-t-2">
-    <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2">
+    <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2 pad-t-2">
     {% for work in site.posts %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if mod == 0 %}
       <figure class="media island">
         <div class="media-img media-img-stacked">
-          <a href="#"><img class="img-flex" src="" alt="1" /></a>
+          <a href="#"><img class="img-flex" src="{{ site.baseurl }}{{ work.image }}" alt="1" /></a>
         </div>
-        <figcaption>
-          {{ work.title }}
-        </figcaption>
       </figure>
+      {% endif %}
+    {% endfor %}
+    </div>
+    <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2">
+    {% for work in site.posts %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if mod == 1 %}
+      <figure class="media island">
+        <div class="media-img media-img-stacked">
+          <a href="#"><img class="img-flex" src="{{ site.baseurl }}{{ work.image }}" alt="1" /></a>
+        </div>
+      </figure>
+      {% endif %}
     {% endfor %}
     </div>
   </div>
 </section>
 
-<section>
-  <h2>About</h2>
-
+<section class="wrapper gutter pad-t-1-2">
   <p>
     Hi, my name is Janelle Zhao and I am a graphic designer
     from Ottawa, Canada. I am passionate about creating

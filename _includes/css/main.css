@@ -25,15 +25,13 @@ h2 {
   font-family: "aktiv-grotesk-extended",sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 6rem;
-  transform: rotate(270deg);
 }
 
 a {
   text-decoration: none;
 }
 
-section.site-nav {
+.site-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -43,17 +41,28 @@ section.site-nav {
   margin: 2rem;
   display: flex;
   flex-direction: column;
+  min-width: 18rem;
+  width: 22%;
+  max-width: 21rem;
 }
 
-section.site-nav header {
+.site-nav header {
   border-bottom: 2px solid black;
 }
 
-section.site-nav nav {
+.site-nav nav {
   font-size: 1.8rem;
+  flex-basis: 100%;
+  flex-grow: 1;
 }
 
-.nav li a:link {
+.site-nav .sosh {
+  border-top: 2px solid black;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+.site-nav a:link {
   text-decoration: none;
   color: black;
 }
@@ -63,9 +72,14 @@ section.site-nav nav {
 }
 
 .nav li a:hover {
-  color: green;
+  color: blue;
 }
 
 .nav li a:active {
   text-decoration: none;
+}
+
+#main {
+  margin-left: 16rem;
+  margin-right: 2rem;
 }
