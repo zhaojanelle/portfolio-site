@@ -2,4 +2,31 @@
 layout: default
 ---
 
-<h1>Janelle Zhao's Portfolio</h1>
+<section>
+  <h2>Work</h2>
+
+  <div class="grid pad-t-2">
+    <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2">
+    {% for work in site.posts %}
+      <figure class="media island">
+        <div class="media-img media-img-stacked">
+          <a href="#"><img class="img-flex" src="" alt="1" /></a>
+        </div>
+        <figcaption>
+          {{ work.title }}
+        </figcaption>
+      </figure>
+    {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About</h2>
+
+  <p>
+    Hi, my name is Janelle Zhao and I am a graphic designer
+    from Ottawa, Canada. I am passionate about creating
+    delightful & meaningful experiences through design.
+  </p>
+</section>
