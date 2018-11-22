@@ -21,18 +21,24 @@ were used throughout to lend an inviting vibe.
 <img class="img-flex" src="/images/first-day-kit-illustration.png" />
 
 <h4>Colours</h4><hr>
-<img class="img-flex push-2" src="/images/first-day-kit-colours.svg" />
+<img class="img-flex push-2" src="/images/first-day-kit-colours@2x.png" />
 
 <div class="grid push-2">
-  <div class="unit s-1-2 m-2-3 pad-r">
+  <div class="unit s-2-3 m-2-3 pad-r">
     <h4>Cooper Light</h4><hr>
     <img class="img-flex" src="/images/cooper-light.svg" />
   </div>
-  <div class="unit s-1-2 m-1-3">
+  <div class="unit s-1-3 m-1-3">
     <h4>Work Sans</h4><hr>
     <img class="img-flex" src="/images/work-sans.svg" />
   </div>
 </div>
 
 <h4>App Screens</h4><hr>
-<img class="img-flex push-2" src="/images/first-day-kit-home@2x.png" />
+<img class="img-flex push" src="/images/first-day-kit-home.png" />
+<img class="img-flex push" src="/images/first-day-kit-people.png" />
+<img class="img-flex push" src="/images/first-day-kit-events.png" />
+<img class="img-flex push" src="/images/first-day-kit-map.png" />
+<img class="img-flex push" src="/images/first-day-kit-resources.png" />
+
+{% include footer.html %}

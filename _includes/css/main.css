@@ -127,6 +127,10 @@ dd {
 
 }
 
+.smallerwidth {
+  width: 80%;
+}
+
 @media only screen and (min-width: 60em) {
   body {
     padding: 6rem 2.6rem 2.6rem;;
@@ -171,6 +175,6 @@ dd {
     padding-right: 3rem;
     margin: 3.5rem auto 0;
     font-size: 1.8rem;
-    max-width: 80rem;
+    max-width: 75rem;
   }
 }
