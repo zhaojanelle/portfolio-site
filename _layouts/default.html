@@ -16,9 +16,7 @@
       <h1 class="push-none">Janelle Zhao</h1>
     </header>
 
-    {% include nav.html %}
-
-    <ul class="sosh list-group island push-none">
+    <ul class="nav sosh list-group island push-none">
       <li><a href="https://instagram.com/zhaojanelle">Instagram</a></li>
       <li><a href="https://twitter.com/zhaojanelle">Twitter</a></li>
       <li><a href="https://linkedin.com/zhaojanelle">LinkedIn</a></li>
@@ -26,6 +24,8 @@
   </section>
 
   <main id="main" role="main">
+    {% include nav.html %}
+
     {{ content }}
   </main>
 </body>
