@@ -85,10 +85,17 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-size: 0.9rem;
 }
 
 .site-nav .sosh a {
   pointer-events: auto;
+}
+
+.main {
+  font-size: 1.5rem;
+  margin: 1rem;
+  line-height: 1.5;
 }
 
 @media only screen and (min-width: 60em) {
@@ -109,9 +116,14 @@ a {
     margin: 1.6rem;
   }
 
+  .nav {
+    position: fixed;
+    margin-top: 2.5rem;
+    line-height: 1.75;
+  }
+
   .nav ul {
     flex-direction: column;
-    position: fixed;
   }
 
   .nav a.active::before {
@@ -125,8 +137,11 @@ a {
     padding-right: 1rem;
   }
 
-  #main {
-    margin-left: 16rem;
-    margin-right: 2rem;
+  .main {
+    padding-left: 16rem;
+    padding-right: 3rem;
+    margin: 3.5rem auto 0;
+    font-size: 1.8rem;
+    max-width: 80rem;
   }
 }
