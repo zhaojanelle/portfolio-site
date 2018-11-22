@@ -131,6 +131,16 @@ dd {
   width: 80%;
 }
 
+.drop-shadow {
+  box-shadow: 6px 6px 15px -1px rgba(0,0,0,0.05);
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
 @media only screen and (min-width: 60em) {
   body {
     padding: 6rem 2.6rem 2.6rem;;
