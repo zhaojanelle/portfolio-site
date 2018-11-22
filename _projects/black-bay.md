@@ -1,6 +1,7 @@
 ---
 title: Black Bay
-image: images/black-bay-home.png
+image: images/black-bay-small@2x.png
+layout: default
 ---
 
 Black Bay Horse Farm content

@@ -9,23 +9,23 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   <link rel="stylesheet" href="https://use.typekit.net/kvc7fab.css">
 </head>
-<body class="island">
+<body>
 
   <section class="site-nav">
     <header class="island-1-2 gutter">
       <h1 class="push-none">Janelle Zhao</h1>
     </header>
 
-    <ul class="nav sosh list-group island push-none">
+    <ul class="nav sosh list-group">
       <li><a href="https://instagram.com/zhaojanelle">Instagram</a></li>
       <li><a href="https://twitter.com/zhaojanelle">Twitter</a></li>
       <li><a href="https://linkedin.com/zhaojanelle">LinkedIn</a></li>
     </ul>
   </section>
 
-  <main id="main" role="main">
-    {% include nav.html %}
+  {% include nav.html %}
 
+  <main id="main" role="main">
     {{ content }}
   </main>
 </body>

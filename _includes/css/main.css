@@ -12,6 +12,10 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+body {
+  padding: 4rem 0.6rem 0.6rem;;
+}
+
 .skip-links {
   margin: 0;
   padding: 0;
@@ -44,14 +48,11 @@ a {
   position: fixed;
   top: 4rem;
   left: 0.6rem;
-  bottom: 0.6rem;
+  bottom: 3.2rem;
   right: 0.6rem;
   border: 2px solid black;
-  display: flex;
-  flex-direction: column;
   box-shadow: 0 0 0 20rem rgba(255, 255, 255, 0.6);
   pointer-events: none;
-  justify-content: flex-end;
 }
 
 .site-nav header {
@@ -60,45 +61,11 @@ a {
   margin-bottom: 0;
 }
 
-.site-nav nav {
+.nav ul {
   font-size: 1.7rem;
-  flex-basis: 100%;
-  flex-grow: 1;
-}
-
-.site-nav nav a {
-  position: relative;
-  transition: all 200ms ease-out;
-  pointer-events: auto;
-  display: inline-block;
-  margin-left: -1.5rem;
-}
-
-.site-nav nav a::before {
-  opacity: 0;
-  transition: all 200ms ease-out;
-  background-image: url('{{ site.baseurl }}/images/arrow.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 1.5rem;
-  height: 1rem;
-  display: inline-block;
-  content: " ";
-  padding-right: 1rem;
-  pointer-events: none;
-}
-
-.site-nav nav a:hover {
-  transform: translateX(1.5rem);
-}
-
-.site-nav nav a:hover::before {
-  opacity: 1;
-}
-
-.site-nav .sosh {
-  text-transform: uppercase;
-  line-height: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .nav a:link {
@@ -106,13 +73,60 @@ a {
   color: black;
 }
 
-@media only screen and (min-width: 60em) {
-  .site-nav {
-    margin: 2rem;
-  }
+.site-nav .sosh {
+  text-transform: uppercase;
+  line-height: 2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: 0.6rem;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-#main {
-  margin-left: 16rem;
-  margin-right: 2rem;
+.site-nav .sosh a {
+  pointer-events: auto;
+}
+
+@media only screen and (min-width: 60em) {
+  body {
+    padding: 6rem 2.6rem 2.6rem;;
+  }
+
+  .site-nav {
+    margin: 2rem;
+    bottom: 0.6rem;
+    position: fixed;
+  }
+
+  .site-nav .sosh {
+    top: auto;
+    bottom: 0;
+    flex-direction: column;
+    margin: 1.6rem;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    position: fixed;
+  }
+
+  .nav a.active::before {
+    background-image: url('{{ site.baseurl }}/images/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1rem;
+    display: inline-block;
+    content: " ";
+    padding-right: 1rem;
+  }
+
+  #main {
+    margin-left: 16rem;
+    margin-right: 2rem;
+  }
 }

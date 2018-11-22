@@ -5,24 +5,24 @@ layout: default
 <section>
   <div class="grid pad-t-2">
     <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2 pad-t-2">
-    {% for work in site.posts %}
+    {% for work in site.projects %}
       {% assign mod = forloop.index | modulo: 2 %}
       {% if mod == 0 %}
       <figure class="media island">
         <div class="media-img media-img-stacked">
-          <a href="#"><img class="img-flex" src="{{ site.baseurl }}{{ work.image }}" alt="1" /></a>
+          <a href="{{ site.baseurl }}{{ work.url }}"><img class="img-flex" src="{{ site.baseurl }}{{ work.image }}" alt="1" /></a>
         </div>
       </figure>
       {% endif %}
     {% endfor %}
     </div>
     <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2">
-    {% for work in site.posts %}
+    {% for work in site.projects %}
       {% assign mod = forloop.index | modulo: 2 %}
       {% if mod == 1 %}
       <figure class="media island">
         <div class="media-img media-img-stacked">
-          <a href="#"><img class="img-flex" src="{{ site.baseurl }}{{ work.image }}" alt="1" /></a>
+          <a href="{{ site.baseurl }}{{ work.url }}"><img class="img-flex" src="{{ site.baseurl }}{{ work.image }}" alt="1" /></a>
         </div>
       </figure>
       {% endif %}
