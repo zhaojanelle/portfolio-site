@@ -56,6 +56,15 @@ p {
 
 a {
   text-decoration: none;
+  transition: color 200ms linear;
+}
+
+a:hover {
+  color: red !important;
+}
+
+a:visited {
+  color: inherit;
 }
 
 .pad-r {
@@ -71,12 +80,14 @@ a {
   border: 2px solid black;
   box-shadow: 0 0 0 20rem rgba(255, 255, 255, 0.6);
   pointer-events: none;
+  z-index: 1;
 }
 
 .site-nav header {
   position: absolute;
   bottom: 100%;
   margin-bottom: 0;
+  pointer-events: auto;
 }
 
 .nav ul {
@@ -110,10 +121,45 @@ a {
   pointer-events: auto;
 }
 
+.nav ul ul {
+  display: none;
+}
+
 .main {
   font-size: 1.5rem;
   margin: 1rem;
   line-height: 1.5;
+}
+
+figure .media-img {
+  position: relative;
+}
+
+figure img {
+  transition: opacity 400ms linear;
+}
+
+figure img.hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+figure:hover img {
+  opacity: 0;
+}
+
+figure:hover img.hover {
+  opacity: 1;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  text-decoration: underline;
 }
 
 dt {
@@ -169,6 +215,21 @@ dd {
     flex-direction: column;
   }
 
+  .nav ul ul {
+    display: block;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .nav ul ul a.active {
+    transform: rotate(-5deg);
+    display: block;
+  }
+
+  .nav ul ul a.active::before {
+    display: none;
+  }
+
   .nav a.active::before {
     background-image: url('{{ site.baseurl }}/images/arrow.svg');
     background-repeat: no-repeat;
@@ -177,7 +238,12 @@ dd {
     height: 1rem;
     display: inline-block;
     content: "  ";
-    padding-right: 1rem;
+    margin: 0 0.5rem 0 0;
+  }
+
+  .nav a.active.back::before {
+    transform: scaleX(-1);
+    margin: 0 0.5rem 0 0;
   }
 
   .main {

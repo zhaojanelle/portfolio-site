@@ -1,7 +1,8 @@
 ---
 title: Willow
+services: web design, web development
 image: images/willow-small@2x.png
-layout: default
+layout: project
 ---
 
 <img class="img-flex" src="/images/willow-multi-screens.png" />

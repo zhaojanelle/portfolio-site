@@ -1,6 +1,15 @@
 <nav class="nav island-1-2 gutter">
   <ul class="list-group">
-    <li><a href="{{ site.baseurl }}/work" class="active">work</a></li>
+    <li>
+      <a href="{{ site.baseurl }}/" class="active {% if layout.projects %}back{% endif %}">work</a>
+      {% if layout.projects %}
+        <ul class="list-group">
+          {% for project in site.projects %}
+            <li><a href="{{ site.baseurl }}{{ project.url }}" class="{% if page.url == project.url %}active{% endif %}">{{ project.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
     <li><a href="{{ site.baseurl }}/about">about</a></li>
     <li><a href="{{ site.baseurl }}/contact">contact</a></li>
     <li><a href="{{ site.baseurl }}/journal">journal</a></li>

@@ -1,7 +1,8 @@
 ---
 title: Black Bay
+services: logo, identity design
 image: images/black-bay-small@2x.png
-layout: default
+layout: project
 ---
 
 <img class="img-flex" src="/images/black-bay-logo.svg" />

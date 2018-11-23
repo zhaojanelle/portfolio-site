@@ -1,7 +1,9 @@
 ---
 title: First Day Kit
+services: logo, illustrations, ui/ux, brand identity
 image: images/first-day-kit-small@2x.png
-layout: default
+hoverimage: images/first-day-kit-hover@2x.png
+layout: project
 ---
 
 <img class="img-flex" src="/images/first-day-kit-ipad.png" />
