@@ -36,6 +36,10 @@ footer {
   top: -3em;
 }
 
+p {
+  font-size: 1rem;
+}
+
 h1 {
   font-weight: normal;
   font-size: 1.7rem;
@@ -207,10 +211,8 @@ dt {
   clear: left;
   text-align: right;
   font-size: 1rem;
-}
-
-dd {
-
+  line-height: 2.5;
+  margin-right: .5rem;
 }
 
 .smallerwidth {
@@ -223,7 +225,9 @@ dd {
 
 @media only screen and (min-width: 38em) {
 
-
+p {
+  font-size:;
+}
 
 }
 
