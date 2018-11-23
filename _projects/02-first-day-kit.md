@@ -42,5 +42,3 @@ were used throughout to lend an inviting vibe.
 <img class="img-flex push" src="/images/first-day-kit-events.png" />
 <img class="img-flex push" src="/images/first-day-kit-map.png" />
 <img class="img-flex push" src="/images/first-day-kit-resources.png" />
-
-{% include footer.html %}

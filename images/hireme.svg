@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186.902 186.902">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138.198 138.198">
   <defs>
     <style>
       .cls-1 {
-        fill: #faf3a2;
+        fill: #faf3a2f0;
       }
 
       .cls-1, .cls-2 {
@@ -16,7 +16,7 @@
       }
     </style>
   </defs>
-  <g id="Group_27" data-name="Group 27" transform="matrix(0.883, 0.469, -0.469, 0.883, 65.063, 0.595)">
+  <g id="Group_74" data-name="Group 74" transform="translate(0.44 0.44)">
     <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-1" cx="68.099" cy="68.099" r="68.099" transform="translate(0.56 0.56)"/>
     <path id="Path_192" data-name="Path 192" class="cls-2" d="M137.515,157.56a39.478,39.478,0,0,1-78.955,0" transform="translate(-29.379 -79.525)"/>
     <g id="Group_40" data-name="Group 40" transform="translate(22.318 17.789)">

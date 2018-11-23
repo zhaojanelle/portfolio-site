@@ -15,6 +15,8 @@
       <h1 class="push-none"><a href="{{ site.baseurl }}/">Janelle Zhao</a></h1>
     </header>
 
+    <a href="/contact" id="hire-me" class="hire-me"><span>Hire Me</span></a>
+
     <ul class="nav sosh list-group">
       <li><a href="https://instagram.com/zhaojanelle">Instagram</a></li>
       <li><a href="https://twitter.com/zhaojanelle">Twitter</a></li>
@@ -24,9 +26,21 @@
 
   {% include nav.html %}
 
-  <main class="main push-2" role="main">
+  <main id="main" class="main push-2" role="main">
     {{ content }}
+
+    {% include footer.html %}
   </main>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" integrity="sha256-AJvwDTgx+2JZWtsg4XDtKI2KFXST+2AosYiLBYde2PM=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js" integrity="sha256-BCkpwV5o3ac9GC/aFo4/lgrzwRHvUNJaacC42YZSkKw=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js" integrity="sha256-hzFNvfa40yrwN2f2YvKFEMOM7ooIaoX9fJwVomCFcBk=" crossorigin="anonymous"></script>
+
+  <script>
+    const hireMe = document.querySelector('.hire-me span');
+    window.onscroll = function() {
+      hireMe.style.transform = 'rotate(' + Math.floor(window.scrollY / 10) + 'deg)';
+    };
+  </script>
 </body>
 </html>
