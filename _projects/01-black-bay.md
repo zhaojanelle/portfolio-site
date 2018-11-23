@@ -2,6 +2,7 @@
 title: Black Bay
 services: logo, identity design
 image: /images/black-bay-small@2x.png
+hoverimage: /images/black-bay-hover@2x.png
 layout: project
 ---
 

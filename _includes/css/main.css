@@ -20,6 +20,10 @@ body {
   padding: 4rem 0.6rem 0.6rem;;
 }
 
+footer {
+  padding-bottom: 3rem;
+}
+
 .skip-links {
   margin: 0;
   padding: 0;
