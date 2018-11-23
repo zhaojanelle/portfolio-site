@@ -57,6 +57,7 @@ p {
 a {
   text-decoration: none;
   transition: color 200ms linear;
+  color: black;
 }
 
 a:hover {
