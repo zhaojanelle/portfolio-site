@@ -7,6 +7,7 @@
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js" integrity="sha256-8VU/+18Z5eyYrv12HuV6lH74T2PFmP1ggKi+JkwYDHE=" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -35,12 +36,23 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" integrity="sha256-AJvwDTgx+2JZWtsg4XDtKI2KFXST+2AosYiLBYde2PM=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js" integrity="sha256-BCkpwV5o3ac9GC/aFo4/lgrzwRHvUNJaacC42YZSkKw=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js" integrity="sha256-hzFNvfa40yrwN2f2YvKFEMOM7ooIaoX9fJwVomCFcBk=" crossorigin="anonymous"></script>
-
   <script>
     const hireMe = document.querySelector('.hire-me span');
     window.onscroll = function() {
       hireMe.style.transform = 'rotate(' + Math.floor(window.scrollY / 10) + 'deg)';
     };
+
+    ScrollReveal({
+      distance: '30px',
+      duration: 1000,
+    }).reveal('figure.media');
+
+    {% if layout.projects %}
+      ScrollReveal({
+        distance: '30px',
+        duration: 1000,
+      }).reveal('.main img');
+    {% endif %}
   </script>
 </body>
 </html>

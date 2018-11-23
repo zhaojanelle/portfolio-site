@@ -7,6 +7,10 @@
        url('./fonts/basis-grotesque-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 html {
   font-family: "BasisGrotesqueRegular",sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -157,7 +161,7 @@ a:visited {
 }
 
 .main {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 1rem;
   line-height: 1.5;
 }
