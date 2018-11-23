@@ -12,7 +12,7 @@ The BLACK BAY HORSE FARM is an equestrian farm from Luskville, QC. They
 offer horse training, lessons, and camp. The goal of the rebrand was to
 bring their brand to the modern era and attract serious riders.
 
-<h3>SERVICE: LOGO, IDENTITY DESIGN</h3>
+<h3 class="pad-t pad-b">SERVICE: LOGO, IDENTITY DESIGN</h3>
 
 Three lines converge in the middle of the logo draws the viewer in
 and suggests to the viewer that an adventure awaits.

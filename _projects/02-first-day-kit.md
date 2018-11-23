@@ -10,7 +10,7 @@ layout: project
 
 FIRST DAY KIT is an app that enables companies to create a resource centre for employees on their first day of work. As the team lead for this project, I was responsible for choosing the art direction, designing the logo, creating the illustrations, and designing the UI/UX.
 
-<h3>SERVICE: LOGO, ILLUSTRATIONS, UI/UX, BRAND IDENTITY</h3>
+<h3 class="pad-t pad-b">SERVICE: LOGO, ILLUSTRATIONS, UI/UX, BRAND IDENTITY</h3>
 
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-logo-explain@2x.png"/>
 The First Day Kit logo was inspired by the cross in a first aid kit.

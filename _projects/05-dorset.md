@@ -1,8 +1,8 @@
 ---
 title: Dorset
 services: package rebrand
-image: /images/dorset-small@2x.png
-hoverimage: /images/dorset-hover@2x.png
+image: /images/dorset-small.png
+hoverimage: /images/dorset-hover.png
 layout: project
 ---
 

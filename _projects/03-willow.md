@@ -12,7 +12,7 @@ WILLOW is a e-commerce site that sells plants for the modern era. The site
 was coded from scratch. It included a home page, product page, item page,
 cart page, and check out page.
 
-<h3>SERVICE: WEB DESIGN, WEB DEVELOPMENT</h3>
+<h3 class="pad-t pad-b">SERVICE: WEB DESIGN, WEB DEVELOPMENT</h3>
 
 <div class="center">
 <img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/willow-ipad-screen.png" />

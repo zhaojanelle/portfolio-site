@@ -21,7 +21,8 @@ body {
 }
 
 footer {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
 }
 
 .skip-links {
@@ -49,7 +50,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: normal;
-  color: red;
+  color: #BAB579;
 }
 
 h4 {
@@ -69,7 +70,7 @@ a {
 }
 
 a:hover {
-  color: red !important;
+  color: #BAB579 !important;
 }
 
 a:visited {
@@ -93,7 +94,7 @@ a:visited {
 }
 
 .nav a.active {
-  color: red;
+  color: #BAB579;
 }
 
 .nav ul ul {
@@ -213,11 +214,11 @@ dd {
 }
 
 .smallerwidth {
-  width: 80%;
+  width: 69%;
 }
 
 .drop-shadow {
-  box-shadow: 6px 6px 15px -1px rgba(0,0,0,0.05);
+  box-shadow: 5px 5px 10px -1px rgba(0,0,0,0.03);
 }
 
 @media only screen and (min-width: 38em) {
