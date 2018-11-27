@@ -36,10 +36,6 @@ footer {
   top: -3em;
 }
 
-p {
-  font-size: 1rem;
-}
-
 h1 {
   font-weight: normal;
   font-size: 1.7rem;
@@ -64,7 +60,7 @@ h4 {
 }
 
 p {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 
 a {
@@ -223,13 +219,6 @@ dt {
   box-shadow: 5px 5px 10px -1px rgba(0,0,0,0.03);
 }
 
-@media only screen and (min-width: 38em) {
-
-p {
-
-}
-
-}
 
 @media only screen and (min-width: 60em) {
   body {
@@ -247,6 +236,10 @@ p {
     bottom: 0;
     flex-direction: column;
     margin: 1.6rem;
+  }
+
+  p {
+    font-size: 1.7rem;
   }
 
   .nav {
@@ -309,9 +302,9 @@ p {
   }
 
   .site-nav .hire-me {
-    width: 4.5rem;
-    height: 4.5rem;
-    clip-path: circle(2.5rem at center);
+    width: 4.45rem;
+    height: 4.45rem;
+    clip-path: circle(2.25rem at center);
   }
 
   .site-nav .hire-me span {
