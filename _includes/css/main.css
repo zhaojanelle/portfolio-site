@@ -226,14 +226,14 @@ dt {
 @media only screen and (min-width: 38em) {
 
 p {
-  font-size:;
+
 }
 
 }
 
 @media only screen and (min-width: 60em) {
   body {
-    padding: 6rem 2.6rem 2.6rem;;
+    padding: 6rem 2.6rem 2.6rem;
   }
 
   .site-nav {
@@ -291,10 +291,47 @@ p {
   }
 
   .main {
-    padding-left: 16rem;
-    padding-right: 3rem;
+    padding-left: 14rem;
+    padding-right: 5rem;
     margin: 3.5rem auto 0;
     font-size: 1.8rem;
     max-width: 75rem;
+  }
+}
+
+@media only screen and (max-height: 46rem) and (min-width: 60rem) {
+  body {
+    padding: 3rem 2.6rem 2.6rem;
+  }
+
+  .site-nav {
+    top: 2rem;
+  }
+
+  .site-nav .hire-me {
+    width: 4.5rem;
+    height: 4.5rem;
+    clip-path: circle(2.5rem at center);
+  }
+
+  .site-nav .hire-me span {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .nav {
+    margin-top: 1.5rem;
+  }
+
+  .nav ul {
+    font-size: 1.3rem;
+  }
+
+  .nav ul ul {
+    font-size: 1rem;
+  }
+
+  .site-nav .sosh {
+    font-size: 0.8rem;
   }
 }
