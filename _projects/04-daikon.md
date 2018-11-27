@@ -8,7 +8,7 @@ layout: project
 
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-1.png" />
 
-DAIKON is a Japanese-inspired, plant-focused seasonable restaurant concept. The concept was inspired by shojin, which is a type of mindful, buddahist cuisine specific to Japanese that uses only vegetables. Many of the design choices found in this project reflects the mindful, nature-inspired origin of the concept.
+DAIKON is a Japanese-inspired, plant-focused restaurant concept. The concept was inspired by shojin, which is a type of buddhist cuisine specific to Japan that uses only vegetables. Many of the design choices found in this project reflect the mindful, nature-inspired origin of the concept.
 
 <h3 class="pad-t pad-b">SERVICE: logo design, brand identity</h3>
 
