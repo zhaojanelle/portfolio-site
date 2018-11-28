@@ -229,6 +229,16 @@ aside {
   padding-left: 2rem;
 }
 
+.get-in-touch {
+  text-align: center;
+}
+
+.get-in-touch a {
+  font-size: 2rem;
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+}
+
 @media only screen and (min-width: 38em) {
 
   aside {

@@ -23,26 +23,26 @@ layout: project
   </aside>
 </div>
 
-<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-logo-explain@2x.png"/>
+<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-logo-explain@2x.png" alt="First Day Kit logo explainer image"/>
 
 <p class="project-text">The first day of work is often overwhelming so it was important to create an
 engaging and friendly space for the user. Original, hand-drawn illustrations
 were used throughout to lend an inviting vibe.</p>
 
 <h4>Illustration</h4><hr>
-<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-illustration.png" />
+<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-illustration.png" alt="First Day Kit illustration example of watercooler talk"/>
 
 <h4>Colours</h4><hr>
-<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-colours@2x.png" />
+<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-colours@2x.png" alt="First Day Kit colour palette"/>
 
 <div class="grid push-2">
   <div class="unit s-2-3 m-2-3 pad-r">
     <h4>Cooper Light</h4><hr>
-    <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/cooper-light.svg" />
+    <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/cooper-light.svg" alt="First Day Kit cooper light"/>
   </div>
   <div class="unit s-1-3 m-1-3">
     <h4>Work Sans</h4><hr>
-    <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/work-sans.svg" />
+    <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/work-sans.svg" alt="First Day Kit work sans"/>
   </div>
 </div>
 
