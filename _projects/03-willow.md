@@ -8,9 +8,9 @@ layout: project
 
 <img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/willow-multi-screens.png" />
 
-<div class="grid push-2 project-text">
+<div class="grid project-text">
   <div class="unit xs-1 m-2-3">
-  WILLOW is a e-commerce site that sells plants for the modern era. The site was coded from scratch. It included a home page, product page, item page, cart page, and check out page.
+  WILLOW is a e-commerce site that sells plants for the modern era. The site was <a href="https://zhaojanelle.github.io/ecommerce-pattern-library/pages/home.html" class="link-underline" target="_blank">coded</a> from scratch. It included a home page, product page, item page, cart page, and check out page.
   </div>
   <aside class="unit xs-1 m-1-3">
   SERVICES:
@@ -20,8 +20,6 @@ layout: project
     </ul>
   </aside>
 </div>
-
-
 <div class="center">
 <img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/willow-ipad-screen.png" />
 <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-product.png" />

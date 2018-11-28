@@ -59,7 +59,7 @@ h4 {
 
 .logo {
   font-weight: normal;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   line-height: 1.3;
 }
 
@@ -77,15 +77,19 @@ a:visited {
   color: inherit;
 }
 
+a:focus {
+  color: #BAB579;
+}
+
 .pad-r {
   padding-right: 3rem;
 }
 
 .nav ul {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav a:link {
@@ -235,6 +239,9 @@ aside {
 
 .get-in-touch a {
   font-size: 2rem;
+}
+
+.link-underline {
   padding-bottom: 3px;
   border-bottom: 1px solid black;
 }
@@ -246,6 +253,14 @@ aside {
     margin-top: 0;
   }
 
+  .about-content p {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
   .site-nav {
     position: fixed;
     top: 4rem;
@@ -255,14 +270,6 @@ aside {
     border: 2px solid black;
     box-shadow: 0 0 0 20rem rgba(255, 255, 255, .7);
   }
-
-  .about-content p {
-    font-size: 1.6rem;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
 
   .site-nav .hire-me {
     display: block;
@@ -291,13 +298,14 @@ aside {
     top: auto;
     bottom: 0;
     flex-direction: column;
-    margin: 1.6rem;
+    margin: 1.5rem;
   }
 
   .nav {
     position: fixed;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     line-height: 1.75;
+    margin-left: 1.5rem;
   }
 
   .nav ul {
@@ -369,7 +377,7 @@ aside {
   }
 
   .nav ul {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .nav ul ul {
