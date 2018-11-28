@@ -46,9 +46,17 @@ were used throughout to lend an inviting vibe.</p>
   </div>
 </div>
 
-<h4>App Screens</h4><hr>
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-home.png" />
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-people.png" />
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-events.png" />
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-map.png" />
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-resources.png" />
+<h4>Welcome screen</h4><hr>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-home.png" alt="First Day Kit home screen"/>
+
+<h4>Learn about your coworkers</h4><hr>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-people.png" alt="First Day Kit people page"/>
+
+<h4>Find upcoming company events to join</h4><hr>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-events.png" alt="First Day Kit events page"/>
+
+<h4>Take the stress out of figuring out what to eat</h4><hr>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-map.png" alt="First Day Kit food page"/>
+
+<h4>Important resources & documents</h4><hr>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-resources.png" alt="First Day Kit resources page"/>
