@@ -6,17 +6,28 @@ hoverimage: /images/first-day-kit-hover@2x.png
 layout: project
 ---
 
-<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-ipad.png" />
+<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-ipad.png" />
 
-FIRST DAY KIT is an app that enables companies to create a resource centre for employees on their first day of work. As the team lead for this project, I was responsible for choosing the art direction, designing the logo, creating the illustrations, and designing the UI/UX.
-
-<h3 class="pad-t pad-b">SERVICE: LOGO, ILLUSTRATIONS, UI/UX, BRAND IDENTITY</h3>
+<div class="grid push-2 project-text">
+  <div class="unit xs-1 m-2-3">
+  FIRST DAY KIT is an app that enables companies to create a resource centre for employees on their first day of work. As the team lead for this project, I was responsible for choosing the art direction, designing the logo, creating the illustrations, and designing the UI/UX.
+  </div>
+  <aside class="unit xs-1 m-1-3">
+  SERVICES:
+    <ul class="list-group pad-t-1-2">
+      <li>logo</li>
+      <li>illustrations</li>
+      <li>UX/UI</li>
+      <li>brand guidelines</li>
+    </ul>
+  </aside>
+</div>
 
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-logo-explain@2x.png"/>
 
-The first day of work is often overwhelming so it was important to create an
+<p class="project-text">The first day of work is often overwhelming so it was important to create an
 engaging and friendly space for the user. Original, hand-drawn illustrations
-were used throughout to lend an inviting vibe.
+were used throughout to lend an inviting vibe.</p>
 
 <h4>Illustration</h4><hr>
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-illustration.png" />
