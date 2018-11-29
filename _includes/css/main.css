@@ -216,8 +216,12 @@ aside {
   padding: 1.5rem;
 }
 
+.willow-ipad-image {
+  max-width: 750px;
+}
+
 .smallerwidth {
-  width: 69%;
+  max-width: 649px;
 }
 
 .drop-shadow {

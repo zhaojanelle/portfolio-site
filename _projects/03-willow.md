@@ -6,7 +6,7 @@ hoverimage: /images/willow-hover@2x.png
 layout: project
 ---
 
-<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/willow-multi-screens.png" />
+<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/willow-multi-screens.jpg" alt="willow project multi screens mockup"/>
 
 <div class="grid project-text">
   <div class="unit xs-1 m-2-3">
@@ -21,8 +21,8 @@ layout: project
   </aside>
 </div>
 <div class="center">
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/willow-ipad-screen.png" />
-<img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-product.png" />
-<img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-individual-product.png" />
-<img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-checkout.png" />
+<img class="img-flex load-hidden push unit-xs-centered willow-ipad-image" src="{{ site.baseurl }}/images/willow-ipad-screen.png" alt="Willow project home page with ipad mockup"/>
+<img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-product.jpg" alt="Willow project products page"/>
+<img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-individual-product.jpg" alt="Willow project individual page"/>
+<img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-checkout.jpg" alt="Willow project checkout page"/>
 </div>
