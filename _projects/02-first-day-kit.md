@@ -6,7 +6,7 @@ hoverimage: /images/first-day-kit-hover@2x.png
 layout: project
 ---
 
-<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-ipad.png" />
+<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-ipad.jpg" alt="First Day Kit homepage mockup on an ipad" />
 
 <div class="grid push-2 project-text">
   <div class="unit xs-1 m-2-3">
@@ -23,7 +23,7 @@ layout: project
   </aside>
 </div>
 
-<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-logo-explain@2x.png" alt="First Day Kit logo explainer image"/>
+<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-logo-explain.jpg" alt="First Day Kit logo explainer image"/>
 
 <p class="project-text">The first day of work is often overwhelming so it was important to create an
 engaging and friendly space for the user. Original, hand-drawn illustrations
@@ -33,7 +33,7 @@ were used throughout to lend an inviting vibe.</p>
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-illustration.png" alt="First Day Kit illustration example of watercooler talk"/>
 
 <h4>Colours</h4><hr>
-<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-colours@2x.png" alt="First Day Kit colour palette"/>
+<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-colours.jpg" alt="First Day Kit colour palette"/>
 
 <div class="grid push-2">
   <div class="unit s-2-3 m-2-3 pad-r">
@@ -47,16 +47,16 @@ were used throughout to lend an inviting vibe.</p>
 </div>
 
 <h4>Welcome screen</h4><hr>
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-home.png" alt="First Day Kit home screen"/>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-home.jpg" alt="First Day Kit home screen"/>
 
 <h4>Learn about your coworkers</h4><hr>
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-people.png" alt="First Day Kit people page"/>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-people.jpg" alt="First Day Kit people page"/>
 
 <h4>Find upcoming company events to join</h4><hr>
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-events.png" alt="First Day Kit events page"/>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-events.jpg" alt="First Day Kit events page"/>
 
 <h4>Take the stress out of figuring out what to eat</h4><hr>
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-map.png" alt="First Day Kit food page"/>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-map.jpg" alt="First Day Kit food page"/>
 
 <h4>Important resources & documents</h4><hr>
-<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-resources.png" alt="First Day Kit resources page"/>
+<img class="img-flex load-hidden push" src="{{ site.baseurl }}/images/first-day-kit-resources.jpg" alt="First Day Kit resources page"/>
