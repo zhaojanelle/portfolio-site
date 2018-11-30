@@ -259,6 +259,10 @@ aside {
   border-bottom: 1px solid black;
 }
 
+.highlight {
+  background-color: #FAF3A2;
+}
+
 @media only screen and (min-width: 38em) {
 
   aside {
