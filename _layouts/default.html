@@ -11,6 +11,19 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico" type="image/x-icon"/>
   <meta name="description" content="{{page.meta}}">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.5/scrollreveal.min.js" integrity="sha256-8VU/+18Z5eyYrv12HuV6lH74T2PFmP1ggKi+JkwYDHE=" crossorigin="anonymous"></script>
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:title" content="{% if page.title %}{{page.title}} · {% endif %}Janelle Zhao">
+  <meta property="og:url" content="{{ site.baseurl }}">
+  <meta property="og:image" content="{{ site.baseurl }}{% if project.image %}{{ project.image }}{% endif %}">
+  <meta property="og:site_name" content="Janelle Zhao's Portfolio">
+  <meta property="og:description" content="This is the home of Janelle Zhao's portfolio. She is a graphic designer who specializes in interaction and identity design.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@zhaojanelle">
+  <meta name="twitter:title" content="Janelle Zhao's portfolio>
+  <meta name="twitter:url" content="{{ site.baseurl }}">
+  <meta name="twitter:description" content="{{page.meta}}">
+  <meta name="twitter:image" content="{{ site.baseurl }}{% if project.image %}{{ project.image }}{% endif %}">
 </head>
 <body>
 
@@ -63,5 +76,45 @@
       }).reveal('.main img');
     {% endif %}
   </script>
+
+  <script type="application/jd+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Janelle Zhao",
+      "jobTitle": "Graphic Designer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ottawa",
+        "addressRegion": "ON",
+        "addressCountry": "CA",
+
+      },
+      "email": "zhaojanelle@gmail.com",
+      "website": "{{ site.baseurl }}"
+      "sameAs": [
+        "https://instagram.com/zhaojanelle",
+        "https://twitter.com/zhaojanelle",
+        "https://www.linkedin.com/in/zhaojanelle/"
+      ]
+    }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{% if page.title %}{{page.title}} · {% endif %}",
+    "name": "Janelle Zhao",
+    "author": {
+      "@type": "Person",
+      "name": "Janelle Zhao"
+    },
+    "image": "{{ site.baseurl }}{{ include.project.image }}",
+    "url": "{{ site.baseurl }}{{ include.project.url }}",
+    "description": "{{page.meta}}",
+    "keywords": "graphic, design, brand, logo"
+  }
+</script>
+
 </body>
 </html>
