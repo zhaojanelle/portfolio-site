@@ -22,9 +22,18 @@ layout: project
 </div>
 
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-2.jpg" alt="Daikon restaurant logo variation"/>
+
+<p class="project-text">Daikon is the Japanese word for white radish, which is also the base of many of its dishes. The logo was inspired by the shape of the daikon and reflects the artisanal quality of restaurant.</p>
+
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-3.jpg" alt="Daikon restaurant typography hierarchy"/>
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-4.jpg" alt="Daikon restaurant business card design"/>
+
+<p class="project-text">Omakase is a Japanese tasting menu, whereby the chef chooses what is in season and pairs best together, giving the customer a complete experience.</p>
+
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-5.jpg" alt="Daikon restaurant menu design"/>
+
+<p class="project-text">Seasonality is an important pillar of the Japanese culture, as it is to vegetarian cooking. The postcard design highlights some of the textures found in the four seasons.</p>
+
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-6.jpg" alt="Daikon restaurant postcard design"/>
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-7.jpg" alt="daikon restaurant stationery mockup"/>
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-8.jpg" alt="daikon restaurant postcar mockup"/>
