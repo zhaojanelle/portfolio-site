@@ -21,7 +21,7 @@ layout: project
   </aside>
 </div>
 <div class="center">
-<img class="img-flex load-hidden push unit-xs-centered willow-ipad-image" src="{{ site.baseurl }}/images/willow-ipad-screen.png" alt="Willow project home page with ipad mockup"/>
+<img class="img-flex load-hidden push unit-xs-centered willow-ipad-image" src="{{ site.baseurl }}/images/willow-ipad-screen.jpg" alt="Willow project home page with ipad mockup"/>
 <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-product.jpg" alt="Willow project products page"/>
 <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-individual-product.jpg" alt="Willow project individual page"/>
 <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-checkout.jpg" alt="Willow project checkout page"/>
