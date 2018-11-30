@@ -4,6 +4,7 @@ services: logo, illustrations, ui/ux, brand identity
 image: /images/first-day-kit-small.jpg
 hoverimage: /images/first-day-kit-hover.jpg
 layout: project
+meta: First Day Kit is an app concept that helps people starting a new job. Janelle was the team lead and was responsible for designing the logo, UI, illustrations, and brand direction.
 ---
 
 <img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-ipad.jpg" alt="First Day Kit homepage mockup on an ipad" />

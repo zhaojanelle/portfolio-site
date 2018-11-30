@@ -4,6 +4,7 @@ services: logo, brand identity
 image: /images/daikon-small.jpg
 hoverimage: /images/daikon-hover.jpg
 layout: project
+meta: Daikon is a restaurant concept that Japanese inspired and plant-focused. This is Janelle's branding for the restaurant.
 ---
 
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-1.jpg" alt="Daikon logo cover"/>

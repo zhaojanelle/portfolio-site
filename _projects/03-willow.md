@@ -4,6 +4,7 @@ services: web design, web development
 image: /images/willow-small.jpg
 hoverimage: /images/willow-hover.jpg
 layout: project
+meta: Willow is a website that sells plants online. Janelle was responsible for designing and developing the website from scratch.
 ---
 
 <img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/willow-multi-screens.jpg" alt="willow project multi screens mockup"/>

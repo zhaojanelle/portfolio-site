@@ -4,6 +4,7 @@ services: logo, identity design
 image: /images/black-bay-small.jpg
 hoverimage: /images/black-bay-hover.jpg
 layout: project
+meta: Black Bay Horse Farm is a horse farm that Janelle helped rebrand, which included a logo and brand guidelines.
 ---
 
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/black-bay-logo.svg" alt="Black Bay Horse Farm logo"/>
