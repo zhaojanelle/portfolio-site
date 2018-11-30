@@ -1,5 +1,7 @@
+markdown: redcarpet
 baseurl: ""
 exclude: ['README.md']
 collections:
   projects:
     output: true
+permalink: pretty

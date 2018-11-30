@@ -35,10 +35,12 @@ footer {
 .skip-links a {
   position: absolute;
   top: -3em;
-  background-color: #000;
-  color: #fff;
+  background-color: #FAF3A2;
+  color: #000;
   padding: 0.5em 0.75em;
   font-weight: bold;
+  text-decoration: none;
+
 }
 
 .skip-links a:focus {
@@ -59,10 +61,6 @@ h4 {
   font-size: 1rem;
   font-weight: normal;
   margin-bottom: 0;
-}
-
-::selection {
-    background: #FAF3A2;
 }
 
 .logo {
@@ -86,7 +84,7 @@ a:visited {
 }
 
 a:focus {
-  outline: 3px solid #BAB579;
+  outline: 0;
 }
 
 .pad-r {
