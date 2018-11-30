@@ -1,6 +1,6 @@
 ---
 title: First Day Kit
-services: logo, illustrations, ui/ux, brand identity
+services: logo, illustrations, UX
 image: /images/first-day-kit-small.jpg
 hoverimage: /images/first-day-kit-hover.jpg
 layout: project
