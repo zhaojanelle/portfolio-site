@@ -1,8 +1,8 @@
 ---
 title: Willow
 services: web design, web development
-image: /images/willow-small@2x.png
-hoverimage: /images/willow-hover@2x.png
+image: /images/willow-small.jpg
+hoverimage: /images/willow-hover.jpg
 layout: project
 ---
 
