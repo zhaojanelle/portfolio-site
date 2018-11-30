@@ -24,7 +24,7 @@ meta: Daikon is a restaurant concept that Japanese inspired and plant-focused. T
 
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-2.jpg" alt="Daikon restaurant logo variation"/>
 
-<p class="project-text">Daikon is the Japanese word for white radish, which is also the base of many of its dishes. The logo was inspired by the shape of the daikon and reflects the artisanal quality of restaurant.</p>
+<p class="project-text">Daikon is the Japanese word for white radish, which is also the base of many of its dishes. The logo was inspired by the shape of the daikon and reflects the artisanal quality of the restaurant.</p>
 
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-3.jpg" alt="Daikon restaurant typography hierarchy"/>
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/daikon-4.jpg" alt="Daikon restaurant business card design"/>

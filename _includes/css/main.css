@@ -263,6 +263,10 @@ aside {
   background-color: #FAF3A2;
 }
 
+.space-between {
+  padding-right: 0;
+}
+
 @media only screen and (min-width: 38em) {
 
   aside {
@@ -272,6 +276,10 @@ aside {
 
   .about-content p {
     font-size: 1.6rem;
+  }
+
+  .space-between {
+    padding-right: 1rem;
   }
 
 }
@@ -382,6 +390,10 @@ aside {
     font-size: 1.9rem;
   }
 
+  .space-between {
+    padding-right: 1.5rem;
+  }
+
 }
 
 @media only screen and (max-height: 46rem) and (min-width: 60rem) {
@@ -404,4 +416,12 @@ aside {
   .site-nav .sosh {
     font-size: 0.8rem;
   }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .space-between {
+    padding-right: 3rem;
+  }
+
 }
