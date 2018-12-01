@@ -10,10 +10,10 @@ meta: Black Bay Horse Farm is a horse farm that Janelle helped rebrand, which in
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/black-bay-logo.svg" alt="Black Bay Horse Farm logo"/>
 
 <div class="grid push-2 project-text">
-  <div class="unit xs-1 m-2-3">
+  <div class="unit xs-1 m-3-4">
   The BLACK BAY HORSE FARM is an equestrian farm from Luskville, QC. They offer horse training, lessons, and camp. The goal of the rebrand was to bring their brand to the modern era and attract serious riders.
   </div>
-  <aside class="unit xs-1 m-1-3">
+  <aside class="unit xs-1 m-1-4">
   SERVICES:
     <ul class="list-group pad-t-1-2">
       <li>logo</li>
