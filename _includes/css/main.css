@@ -84,7 +84,7 @@ a {
 }
 
 a:hover {
-  color: #BAB579 !important;
+  color: #989898 !important;
 }
 
 a:visited {
@@ -112,7 +112,7 @@ a:focus {
 }
 
 .nav a.active {
-  color: #BAB579;
+  color: #989898;
 }
 
 .nav ul ul {
