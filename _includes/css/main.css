@@ -58,6 +58,13 @@ h3 {
 }
 
 h4 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+h5 {
   font-size: 1rem;
   font-weight: normal;
   margin-bottom: 0;
@@ -181,9 +188,9 @@ a:focus {
 }
 
 .main {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin: 1rem;
-  line-height: 1.37;
+  line-height: 1.5;
 }
 
 figure .media-img {
@@ -238,7 +245,7 @@ aside {
 }
 
 aside {
-  margin-top: 2.5rem;
+  margin-top: 1.3rem;
 }
 
 .about-content {
@@ -267,6 +274,10 @@ aside {
   padding-right: 0;
 }
 
+.project-text {
+  padding: 1rem;
+}
+
 @media only screen and (min-width: 38em) {
 
   aside {
@@ -282,6 +293,9 @@ aside {
     padding-right: 1rem;
   }
 
+  .project-text {
+    padding: 3rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -378,10 +392,6 @@ aside {
     line-height: 1.4;
   }
 
-  .project-text {
-    padding: 5rem;
-  }
-
   .about-content {
     padding: 0 1rem;
   }
@@ -422,6 +432,10 @@ aside {
 
   .space-between {
     padding-right: 3rem;
+  }
+
+  .project-text {
+    padding: 5rem 9rem;
   }
 
 }
