@@ -360,7 +360,6 @@ aside {
   }
 
   .nav ul ul a.active {
-    transform: rotate(-5deg);
     display: block;
   }
 
