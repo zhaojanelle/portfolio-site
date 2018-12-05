@@ -7,7 +7,7 @@ layout: project
 meta: First Day Kit is an app concept that helps people starting a new job. Janelle was the team lead and was responsible for designing the logo, UI, illustrations, and brand direction.
 ---
 
-<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-ipad.jpg" alt="First Day Kit homepage mockup on an ipad" />
+<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-multi-screen.jpg" alt="First Day Kit homepage mockup on an ipad" />
 
 <div class="grid push project-text">
   <div class="unit xs-1 s-1 m-3-4 push">
@@ -27,12 +27,8 @@ meta: First Day Kit is an app concept that helps people starting a new job. Jane
     <p>This was a class project with a real client who had a problem they wanted to solve. Unlike the other projects in our class, our client had no product in mind, simply a problem they wanted to solve and a catchy name: First Day Kit.</p>
     <h3>THE PROBLEM</h3>
     <p>The first day of a new job is always overwhelming and stressful. You don't know your coworkers. You're overloaded with new information. And sometimes you don't even know what to eat for lunch. On the employer's side, getting an employee's first day of work right is crucial for employee retention and productivity.</p>
-    <h3>THE RESEARCH</h3>
-    <p>We conducted a lot of research, looking into similar products and solutions to this problem. We also looked at the impact of how onboarding programs affect performance. For example, according to a study done by Aberdeen Group, formal onboarding increases the chance of keeping a new employee for at least 3 years by 69%. </p>
-    <h3>TARGET AUDIENCE</h3>
-    <p>While organizations big and small can benefit from a First Day Kit, we decided with our client that this app was designed for small to mid-sized companies who may not have an HR department but are growing quickly and need a solution that is easy to use and scalable.</p>
     <h3>THE SOLUTION</h3>
-    <p class="push-2">The solution we came up with was a web app that companies can customize for each new employee, containing the most pertinent information on the first day. It was a delicate balance between providing just the right amount of the important information, while keeping it light and stress-free. From our interviews, we learned that employees most want to know who their coworkers are, what events companies are hosting so that they can socialize, what to eat, and important information like health benefits. That is exactly what we provided in this app.</p>
+    <p class="push-2">The solution was a web app that companies can customize for employees containing the most pertinent information for their first day of work. It was a delicate balance between providing just the right amount of the important information, while keeping it light and stress-free. From our interviews, we learned that employees most want to know who their coworkers are, what events companies are hosting so that they can socialize, what to eat, and important information like health benefits. That is exactly what we provided in this app.</p>
     <div class="big text-center"><a href="https://xd.adobe.com/view/7b02a001-3034-4690-7cef-9568aa12b8ff-0d33/" class="link-underline" target="_blank">Explore the Interactive Prototype</a></div>
   </div>
 </div>
@@ -45,10 +41,7 @@ meta: First Day Kit is an app concept that helps people starting a new job. Jane
 <h5>Illustration</h5><hr>
 <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-illustration.png" alt="First Day Kit illustration example of watercooler talk"/>
 
-<p class="project-text">Original, hand-drawn illustrations were used throughout the app to lend a friendly and welcoming vibe. It helps to reduce the stress that may come with starting a new job.</p>
-
-<h5>Colours</h5><hr>
-<img class="img-flex load-hidden push-2" src="{{ site.baseurl }}/images/first-day-kit-colours.jpg" alt="First Day Kit colour palette"/>
+<p class="project-text">Hand-drawn illustrations were used throughout the app to create a friendly and welcoming atmosphere.</p>
 
 <div class="grid push-2">
   <div class="unit s-2-3 m-2-3 pad-r">
