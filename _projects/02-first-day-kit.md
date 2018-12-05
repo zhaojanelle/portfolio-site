@@ -53,18 +53,19 @@ meta: First Day Kit is an app concept that helps people starting a new job. Jane
     <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/work-sans.svg" alt="First Day Kit work sans"/>
   </div>
 </div>
+<div class="center">
+  <h5>Welcome screen</h5><hr>
+  <img class="img-flex load-hidden push drop-shadow push unit-xs-centered smallwidth" src="{{ site.baseurl }}/images/first-day-kit-home.jpg" alt="First Day Kit home screen"/>
 
-<h5>Welcome screen</h5><hr>
-<img class="img-flex load-hidden push drop-shadow" src="{{ site.baseurl }}/images/first-day-kit-home.jpg" alt="First Day Kit home screen"/>
+  <h5>Learn about your coworkers</h5><hr>
+  <img class="img-flex load-hidden push drop-shadow push unit-xs-centered smallwidth" src="{{ site.baseurl }}/images/first-day-kit-people.jpg" alt="First Day Kit people page"/>
 
-<h5>Learn about your coworkers</h5><hr>
-<img class="img-flex load-hidden push drop-shadow" src="{{ site.baseurl }}/images/first-day-kit-people.jpg" alt="First Day Kit people page"/>
+  <h5>Find upcoming company events to join</h5><hr>
+  <img class="img-flex load-hidden push drop-shadow push unit-xs-centered smallwidth" src="{{ site.baseurl }}/images/first-day-kit-events.jpg" alt="First Day Kit events page"/>
 
-<h5>Find upcoming company events to join</h5><hr>
-<img class="img-flex load-hidden push drop-shadow" src="{{ site.baseurl }}/images/first-day-kit-events.jpg" alt="First Day Kit events page"/>
+  <h5>Take the stress out of figuring out what to eat</h5><hr>
+  <img class="img-flex load-hidden push drop-shadow push unit-xs-centered smallwidth" src="{{ site.baseurl }}/images/first-day-kit-map.jpg" alt="First Day Kit food page"/>
 
-<h5>Take the stress out of figuring out what to eat</h5><hr>
-<img class="img-flex load-hidden push drop-shadow" src="{{ site.baseurl }}/images/first-day-kit-map.jpg" alt="First Day Kit food page"/>
-
-<h5>Important resources & documents</h5><hr>
-<img class="img-flex load-hidden push drop-shadow" src="{{ site.baseurl }}/images/first-day-kit-resources.jpg" alt="First Day Kit resources page"/>
+  <h5>Important resources & documents</h5><hr>
+  <img class="img-flex load-hidden push drop-shadow push unit-xs-centered smallwidth" src="{{ site.baseurl }}/images/first-day-kit-resources.jpg" alt="First Day Kit resources page"/>
+</div>
