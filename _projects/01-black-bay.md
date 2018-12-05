@@ -7,7 +7,7 @@ layout: project
 meta: Black Bay Horse Farm is a horse farm that Janelle helped rebrand, which included a logo and brand guidelines.
 ---
 
-<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/black-bay-logo.svg" alt="Black Bay Horse Farm logo"/>
+<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/black-bay-logo.png" alt="Black Bay Horse Farm logo"/>
 
 <div class="grid push-2 project-text">
   <div class="unit xs-1 m-3-4">
