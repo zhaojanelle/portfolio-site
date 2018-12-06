@@ -133,9 +133,9 @@ a:focus {
   left: 0;
   bottom: 3.2rem;
   right: 0;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  box-shadow: 0 0 0 20rem rgba(255, 255, 255, .9);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 0 20rem rgba(255, 255, 255, 1);
   pointer-events: none;
   z-index: 1;
 }
@@ -152,21 +152,20 @@ a:focus {
   bottom: 0;
   right: 0;
   display: none;
-  width: 6.5rem;
-  height: 6.5rem;
-  margin: 0 2rem 2rem 0;
+  width: 7rem;
+  height: 7rem;
+  margin: 0 .7rem .7rem 0;
   pointer-events: auto;
-  clip-path: circle(3.75rem at center);
-  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.1));
 }
 
 .site-nav .hire-me span {
-  background-image: url('{{ site.baseurl }}/images/hireme.svg');
+  background-image: url('{{ site.baseurl }}/images/forhire.svg');
   text-indent: -9999px;
   overflow: hidden;
   display: block;
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 7rem;
+  height: 7rem;
 }
 
 .site-nav .hire-me:hover span {
@@ -175,17 +174,17 @@ a:focus {
 
 .site-nav .sosh {
   text-transform: uppercase;
-  line-height: 2;
+  line-height: 3;
   position: absolute;
   left: 0;
   right: 0;
   top: 100%;
   margin: 0.6rem;
-  padding: 0;
+  padding: 0 .65rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  font-size: 1.1rem;
+  justify-content: space-between;
+  font-size: 0.8rem;
 }
 
 .site-nav .sosh a {
@@ -346,12 +345,11 @@ aside {
     top: auto;
     bottom: 0;
     flex-direction: column;
-    margin: 1.5rem;
   }
 
   .nav {
     position: fixed;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     line-height: 1.75;
     margin-left: 1.5rem;
   }
@@ -413,14 +411,10 @@ aside {
   }
 
 }
-
 @media only screen and (max-height: 46rem) and (min-width: 60rem) {
+
   body {
     padding: 3rem 2.4rem 2.4rem;
-  }
-
-  .site-nav {
-    top: 2rem;
   }
 
   .nav ul {
