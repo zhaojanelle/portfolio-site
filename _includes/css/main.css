@@ -116,7 +116,7 @@ a:focus {
 
 .nav a.active span {
   padding: 0.5rem 0;
-  border-bottom: 0.25rem solid #FAF3A2;
+  border-bottom: 0.15rem solid #FAF3A2;
 }
 
 .site-nav {
@@ -283,6 +283,9 @@ hr {
   .nav a {
     padding: 0.5rem 1rem;
   }
+
+  .nav a.active span {
+    border-bottom: 0.25rem solid #FAF3A2;
 
   .logo-mobile {
     display: none;
