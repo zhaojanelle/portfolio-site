@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.715 18.204">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_120" data-name="Group 120" transform="translate(9.804 -5.712) rotate(45)">
+    <path id="Path_185" data-name="Path 185" class="cls-1" d="M37.945,9.6V1.77H30.12C30.364,2.015,37.945,9.6,37.945,9.6Z" transform="translate(-18.678 -0.176)"/>
+    <line id="Line_18" data-name="Line 18" class="cls-2" x1="11.458" y2="11.458" transform="translate(4.25 5.242)"/>
+  </g>
+</svg>

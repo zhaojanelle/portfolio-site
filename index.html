@@ -4,9 +4,13 @@ title: home
 meta: This is the home of Janelle Zhao's portfolio. She is a graphic designer who specializes in interaction and identity design.
 ---
 
+<p class="island banner big">
+  Hello! I am a graphic designer based in Ottawa, Canada. I specialize in interaction & identity design.
+</p>
+
 <section>
   <div class="grid">
-    <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2 space-between">
+    <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2 pad-t-1-2">
     {% for project in site.projects %}
       {% assign mod = forloop.index | modulo: 2 %}
       {% if mod == 0 %}
@@ -14,7 +18,7 @@ meta: This is the home of Janelle Zhao's portfolio. She is a graphic designer wh
       {% endif %}
     {% endfor %}
     </div>
-    <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2 pad-t-2">
+    <div class="unit unit-xs-1 unit-m-1-2 unit-l-1-2 pad-t-1-2">
     {% for project in site.projects %}
       {% assign mod = forloop.index | modulo: 2 %}
       {% if mod == 1 %}

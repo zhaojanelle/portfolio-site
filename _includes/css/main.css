@@ -1,24 +1,3 @@
-@font-face {
-  font-family: 'BasisGrotesque';
-  src: url('./fonts/basis-grotesque-regular.eot'); /* IE9 Compat Modes */
-  src: url('./fonts/basis-grotesque-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./fonts/basis-grotesque-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/basis-grotesque-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('./fonts/basis-grotesque-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
-  font-weight: 400;
-
-}
-
-@font-face {
-  font-family: 'BasisGrotesque';
-  src: url('./fonts/basis-grotesque-bold.eot'); /* IE9 Compat Modes */
-  src: url('./fonts/basis-grotesque-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./fonts/basis-grotesque-bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/basis-grotesque-bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('./fonts/basis-grotesque-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
-  font-weight: 700;
-}
-
 html.sr .load-hidden {
     visibility: hidden;
 }
@@ -31,7 +10,7 @@ html {
 }
 
 body {
-  padding: 4rem 0.6rem 0.6rem;
+  padding: 0;
 }
 
 footer {
@@ -47,11 +26,11 @@ footer {
 
 .skip-links a {
   position: absolute;
-  top: -3em;
+  top: -10em;
   background-color: #FAF3A2;
   color: #000;
   padding: 0.5em 0.75em;
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: none;
 
 }
@@ -60,15 +39,20 @@ footer {
   top: 0;
 }
 
+p {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 0
+}
+
 h2 {
   text-transform: uppercase;
   font-weight: normal;
 }
 
 h3 {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-size: 1.15rem;
+  font-weight: 500;
   margin-bottom: 0;
   padding-bottom: 0.5rem;
 }
@@ -79,10 +63,15 @@ h5 {
   margin-bottom: 0;
 }
 
-.logo {
-  font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 1.3;
+
+.logo-mobile {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.logo-wide {
+  display: none;
 }
 
 a {
@@ -107,11 +96,17 @@ a:focus {
   padding-right: 3rem;
 }
 
+
 .nav ul {
-  font-size: 1.6rem;
+  font-size: 1rem;
+  margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.nav a {
+  padding: 0.5rem .5rem;
 }
 
 .nav a:link {
@@ -119,86 +114,53 @@ a:focus {
   color: black;
 }
 
-.nav a.active {
-  color: #989898;
-}
-
-.nav ul ul {
-  display: none;
+.nav a.active span {
+  padding: 0.5rem 0;
+  border-bottom: 0.25rem solid #FAF3A2;
 }
 
 .site-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 80rem;
+  margin: 0 auto .5rem;
+}
+
+.hire-me {
   position: fixed;
-  top: 4rem;
-  left: 0;
-  bottom: 3.2rem;
-  right: 0;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  box-shadow: 0 0 0 20rem rgba(255, 255, 255, 1);
-  pointer-events: none;
-  z-index: 1;
-}
-
-.site-nav header {
-  position: absolute;
-  bottom: 100%;
-  margin-bottom: 0;
-  pointer-events: auto;
-}
-
-.site-nav .hire-me {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 2rem;
+  right: 2rem;
   display: none;
   width: 7rem;
   height: 7rem;
   margin: 0 .7rem .7rem 0;
   pointer-events: auto;
   filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.1));
+  transition: transform 200ms ease-out;
 }
 
-.site-nav .hire-me span {
+.hire-me span {
   background-image: url('{{ site.baseurl }}/images/forhire.svg');
   text-indent: -9999px;
   overflow: hidden;
   display: block;
   width: 7rem;
   height: 7rem;
+
 }
 
-.site-nav .hire-me:hover span {
-  transform: rotate(90deg);
+.hire-me:hover {
+  transform: rotate(40deg);
 }
 
-.site-nav .sosh {
-  text-transform: uppercase;
-  line-height: 3;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100%;
-  margin: 0.6rem;
-  padding: 0 .65rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 0.8rem;
-}
-
-.site-nav .sosh a {
-  pointer-events: auto;
-}
-
-.top {
+.arrow {
   max-width: 15px;
 }
 
 .main {
-  font-size: 1.15rem;
-  margin: 1rem;
-  line-height: 1.5;
+  margin: 0;
 }
 
 figure .media-img {
@@ -228,16 +190,11 @@ figure a:hover img.hover {
 }
 
 figcaption {
-  font-size: 1.2rem;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 aside {
   font-size: 1rem;
-}
-
-.project-text {
-  padding: 1.5rem;
 }
 
 .smallwidth {
@@ -252,10 +209,6 @@ aside {
   box-shadow: 5px 5px 10px -1px rgba(0,0,0,0.03);
 }
 
-aside {
-  margin-top: 1.3rem;
-}
-
 .about-content {
   font-size: 1.4rem;
 }
@@ -265,13 +218,19 @@ aside {
   padding-left: 2rem;
 }
 
-.big a {
-  font-size: 2rem;
+.big {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  font-weight: normal;
 }
 
 .link-underline {
   padding-bottom: 3px;
   border-bottom: 1px solid black;
+}
+
+.link-underline:hover {
+  border-color: #989898 !important;
 }
 
 .highlight {
@@ -283,10 +242,66 @@ aside {
 }
 
 .project-text {
-  padding: 1rem;
+  padding: 2rem 1rem;
+}
+
+hr {
+  border-top: 1px solid black;
+}
+
+.about-content {
+  margin: auto;
+}
+
+.push-more {
+  margin-bottom: 2.5rem;
+}
+
+.pad-left {
+  padding-left: 0;
+}
+
+.pad-top-more {
+  padding-top: 2.5rem;
+}
+
+.push-mobile {
+  margin-bottom: 2.8rem;
+}
+
+.gutter-custom {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media only screen and (min-width: 38em) {
+
+  .site-nav {
+    margin: 0 auto;
+  }
+
+  .nav a {
+    padding: 0.5rem 1rem;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-wide {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .banner {
+    margin: 5rem 0;
+    max-width: 65rem;
+  }
+
+  .big {
+    font-size: 2rem;
+  }
 
   aside {
     padding-left: 2rem;
@@ -302,100 +317,54 @@ aside {
   }
 
   .project-text {
-    padding: 3rem;
+    padding: 4rem 10rem;
   }
+
+  .nav ul {
+    font-size: 1.35rem;
+  }
+
+  .push-mobile {
+    margin-bottom: 0;
+  }
+
+  .pad-top-more {
+    padding-top: 4rem;
+  }
+
+  .push-more {
+    margin-bottom: 4rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-  .site-nav {
-    position: fixed;
-    top: 4rem;
-    left: 0.7rem;
-    bottom: 3.2rem;
-    right: 0.7rem;
-    border: 0;
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, .9);
+
+  .big {
+    font-size: 2.3rem;
   }
 
-  .site-nav .hire-me {
+  .hire-me {
     display: block;
   }
 
   body {
-    padding: 6rem 2.6rem 2.6rem;
+    padding: 2.6rem;
   }
 
   h3 {
-    line-height: 2.9rem;
-    padding-right: 2rem;
-  }
-
-  .logo {
-    font-size: 2rem;
-  }
-
-  .site-nav {
-    margin: 2rem;
-    bottom: 0.6rem;
-    position: fixed;
-  }
-
-  .site-nav .sosh {
-    top: auto;
-    bottom: 0;
-    flex-direction: column;
-  }
-
-  .nav {
-    position: fixed;
-    margin-top: 2rem;
-    line-height: 1.75;
-    margin-left: 1.5rem;
-  }
-
-  .nav ul {
-    flex-direction: column;
-    font-size: 2rem;
-  }
-
-  .nav ul ul {
-    display: block;
-    margin-left: 2rem;
-    font-size: 1.2rem;
-  }
-
-  .nav ul ul a.active {
-    display: block;
-  }
-
-  .nav ul ul a.active::before {
-    display: none;
-  }
-
-  .nav a.active::before {
-    background-image: url('{{ site.baseurl }}/images/arrow.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 1.5rem;
-    height: 1rem;
-    display: inline-block;
-    content: "  ";
-    margin: 0 0.5rem 0 0;
-  }
-
-  .nav a.active.back::before {
-    transform: scaleX(-1);
-    margin: 0 0.5rem 0 0;
+    font-size: 1.35rem;
   }
 
   .main {
-    padding-left: 17rem;
-    padding-right: 5rem;
     margin: 2rem auto 0;
-    font-size: 1.3rem;
-    max-width: 90rem;
-    line-height: 1.4;
+    max-width: 80rem;
+  }
+
+  p {
+    font-size: 1.35rem;
+    line-height: 1.5;
   }
 
   .about-content {
@@ -410,34 +379,40 @@ aside {
     padding-right: 1.5rem;
   }
 
-}
-@media only screen and (max-height: 46rem) and (min-width: 60rem) {
-
-  body {
-    padding: 3rem 2.4rem 2.4rem;
+  .text-limit {
+    max-width: 35rem;
   }
 
-  .nav ul {
-    font-size: 1.6rem;
+  .pad-left {
+    padding-left: 2.5rem;
   }
 
-  .nav ul ul {
-    font-size: 1rem;
+  .wrapper-small {
+    max-width: 68rem;
+    margin: 0 auto;
   }
 
-  .site-nav .sosh {
-    font-size: 0.8rem;
+  .pad-top-more {
+    padding-top: 5rem;
+  }
+
+  .push-more {
+    margin-bottom: 5rem;
   }
 }
 
 @media only screen and (min-width: 90em) {
+
+  .big {
+    font-size: 2.6rem;
+  }
 
   .space-between {
     padding-right: 3rem;
   }
 
   .project-text {
-    padding: 5rem 9rem;
+    padding: 5rem 12rem;
   }
 
 }

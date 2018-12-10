@@ -1,15 +1,19 @@
-<nav class="nav island-1-2" role="navigation" id="nav">
+<nav class="nav" role="navigation" id="nav">
   <ul class="list-group">
     <li>
-      <a href="{{ site.baseurl }}/" class="{% if page.url == '/' or layout.projects %}active{% endif %} {% if layout.projects %}back{% endif %}">projects</a>
-      {% if layout.projects %}
-        <ul class="list-group">
-          {% for project in site.projects %}
-            <li><a href="{{ site.baseurl }}{{ project.url }}" class="{% if page.url == project.url %}active{% endif %}">{{ project.title }}</a></li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+      <a href="{{ site.baseurl }}/" class="{% if page.url == '/' or page.layout == 'project' %}active{% endif %} {% if layout.projects %}back{% endif %}">
+        <span>projects</span>
+      </a>
     </li>
-    <li><a href="{{ site.baseurl }}/about/" class="{% if page.url == '/about/' %}active{% endif %}">about</a></li>
+    <li>
+      <a href="{{ site.baseurl }}/contact/" class="{% if page.url == '/contact/' %}active{% endif %}">
+        <span>contact</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/about/" class="{% if page.url == '/about/' %}active{% endif %}">
+        <span>about</span>
+      </a>
+    </li>
   </ul>
 </nav>

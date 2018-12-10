@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'BasisGrotesque';
+  src: url('./fonts/basis-grotesque-regular.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/basis-grotesque-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/basis-grotesque-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/basis-grotesque-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/basis-grotesque-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'BasisGrotesque';
+  src: url('./fonts/basis-grotesque-medium.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/basis-grotesque-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/basis-grotesque-medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/basis-grotesque-medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/basis-grotesque-medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: 500;
+}

@@ -4,4 +4,5 @@
 {% include css/modules.css %}
 {% include css/grid.css %}
 {% include css/type.css %}
+{% include css/fonts.css %}
 {% include css/main.css %}
