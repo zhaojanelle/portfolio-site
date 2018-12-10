@@ -38,17 +38,15 @@ meta: First Day Kit is an app concept that helps people starting a new job. Jane
   </div>
 </div>
 
-<h5>Logo</h5><hr>
-<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-logo-explain.jpg" alt="First Day Kit logo explainer image"/>
-
-<p class="project-text island-2">The logo is a derivative of the letter F and the cross associated with first aid kits. The logo is modern and modular (it can be oriented in multiple ways), fitting the “kit” element of product.</p>
-
-<h5>Illustration</h5><hr>
-<img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-illustration.png" alt="First Day Kit illustration example of watercooler talk"/>
-
-<p class="project-text">A hand-drawn illustration style was used for First Day Kit to create a friendly and welcoming atmosphere, helping to ease new employees into the workplace.</p>
-
 <div class="center gutter-custom">
+  <h5>Logo</h5><hr>
+  <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-logo-explain.jpg" alt="First Day Kit logo explainer image"/>
+  <p class="project-text island-2">The logo is a derivative of the letter F and the cross associated with first aid kits. The logo is modern and modular (it can be oriented in multiple ways), fitting the “kit” element of product.</p>
+
+  <h5>Illustration</h5><hr>
+  <img class="img-flex load-hidden" src="{{ site.baseurl }}/images/first-day-kit-illustration.png" alt="First Day Kit illustration example of watercooler talk"/>
+  <p class="project-text">A hand-drawn illustration style was used for First Day Kit to create a friendly and welcoming atmosphere, helping to ease new employees into the workplace.</p>
+
   <h5>Welcome screen</h5><hr>
   <img class="img-flex load-hidden push drop-shadow push unit-xs-centered smallwidth" src="{{ site.baseurl }}/images/first-day-kit-home.jpg" alt="First Day Kit home screen"/>
 
