@@ -286,6 +286,7 @@ hr {
 
   .nav a.active span {
     border-bottom: 0.25rem solid #FAF3A2;
+  }
 
   .logo-mobile {
     display: none;
