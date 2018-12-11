@@ -125,7 +125,7 @@ a:focus {
   justify-content: space-between;
   align-items: baseline;
   max-width: 80rem;
-  margin: 0 auto .5rem;
+  margin: 0 auto;
 }
 
 .hire-me {
@@ -269,9 +269,17 @@ hr {
   margin-bottom: 2.8rem;
 }
 
+.push-0-mobile {
+  margin-bottom: 0;
+}
+
 .gutter-custom {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.text-center-web {
+  text-align: left;
 }
 
 @media only screen and (min-width: 38em) {
@@ -281,11 +289,11 @@ hr {
   }
 
   .nav a {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
   }
 
   .nav a.active span {
-    border-bottom: 0.25rem solid #FAF3A2;
+    border-bottom: 0.2rem solid #FAF3A2;
   }
 
   .logo-mobile {
@@ -299,7 +307,7 @@ hr {
   }
 
   .banner {
-    margin: 5rem 0;
+    margin: 3rem 0 4rem;
     max-width: 65rem;
   }
 
@@ -332,12 +340,20 @@ hr {
     margin-bottom: 0;
   }
 
+  .push-0-mobile {
+    margin-bottom: 1rem;
+  }
+
   .pad-top-more {
     padding-top: 4rem;
   }
 
   .push-more {
     margin-bottom: 4rem;
+  }
+
+  .text-center-web {
+    text-align: center;
   }
 
 }
@@ -351,6 +367,8 @@ hr {
 
   .hire-me {
     display: block;
+    bottom: 1rem;
+    right: 1rem;
   }
 
   body {
@@ -393,7 +411,7 @@ hr {
 
   .wrapper-small {
     max-width: 68rem;
-    margin: 0 auto;
+    margin: 1rem auto;
   }
 
   .pad-top-more {
