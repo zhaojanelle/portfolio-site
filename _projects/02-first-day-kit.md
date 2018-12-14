@@ -62,6 +62,7 @@ meta: First Day Kit is an app concept that helps people starting a new job. Jane
   <h5>Important resources & documents</h5><hr>
   <img class="img-flex load-hidden push drop-shadow push unit-xs-centered smallwidth" src="{{ site.baseurl }}/images/first-day-kit-resources.jpg" alt="First Day Kit resources page"/>
 </div>
+
 <div class="text-center pad-top-more push-more">
   <p class="big push-none">next project</p>
   <a class="big link-underline" href="{{ site.baseurl }}/projects/01-black-bay/">Black Bay</a>

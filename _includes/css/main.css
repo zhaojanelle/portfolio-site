@@ -32,7 +32,6 @@ footer {
   padding: 0.5em 0.75em;
   font-weight: 500;
   text-decoration: none;
-
 }
 
 .skip-links a:focus {
@@ -62,7 +61,6 @@ h5 {
   font-weight: normal;
   margin-bottom: 0;
 }
-
 
 .logo-mobile {
   display: inline-block;
@@ -95,7 +93,6 @@ a:focus {
 .pad-r {
   padding-right: 3rem;
 }
-
 
 .nav ul {
   font-size: 1rem;
@@ -282,7 +279,6 @@ hr {
   text-align: left;
 }
 
-
 @media only screen and (min-width: 38em) {
 
   body {
@@ -360,7 +356,6 @@ hr {
   .text-center-web {
     text-align: center;
   }
-
 }
 
 @media only screen (min-width: 60em) and (max-height: 40em) {

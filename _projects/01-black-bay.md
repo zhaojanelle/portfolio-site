@@ -29,7 +29,6 @@ meta: Black Bay Horse Farm is a horse farm that Janelle helped rebrand, which in
 
 <div class="gutter-custom">
   <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/black-bay-manual-1.jpg" alt="Black Bay Brand Manual page 1 Introduction"/>
-
   <p class="project-text">Three lines converge in the middle of the logo draws the viewer in and suggests to the viewer that an adventure awaits. Besides logo design, I also created a brand guideline for the farm. Below are some shots of the document.</p>
 
   <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/black-bay-manual-2.jpg" alt="Black Bay Brand Manual page 2 Logo dos and donts"/>
