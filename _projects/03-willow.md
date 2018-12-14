@@ -27,10 +27,10 @@ meta: Willow is a website that sells plants online. Janelle was responsible for 
   </aside>
 </div>
 <div class="center gutter-custom">
-  <img class="img-flex load-hidden push unit-xs-centered smallwidth" src="{{ site.baseurl }}/images/willow-home.png" alt="Willow project home page with ipad mockup"/>
-  <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-product.png" alt="Willow project products page"/>
-  <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-individual-product.png" alt="Willow project individual page"/>
-  <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-checkout.png" alt="Willow project checkout page"/>
+  <img class="img-flex load-hidden push unit-xs-centered smallwidth" src="{{ site.baseurl }}/images/willow-home.jpg" alt="Willow project home page with ipad mockup"/>
+  <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-product.jpg" alt="Willow project products page"/>
+  <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-individual-product.jpg" alt="Willow project individual page"/>
+  <img class="img-flex drop-shadow push load-hidden unit-xs-centered smallerwidth" src="{{ site.baseurl }}/images/willow-checkout.jpg" alt="Willow project checkout page"/>
 </div>
 
 <div class="text-center pad-top-more push-more">
