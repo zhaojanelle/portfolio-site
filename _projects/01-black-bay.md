@@ -35,7 +35,7 @@ meta: Black Bay Horse Farm is a horse farm that Janelle helped rebrand, which in
   <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/black-bay-manual-7.jpg" alt="Black Bay Brand Manual page 7 Alternative logo"/>
   <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/black-bay-manual-3.jpg" alt="Black Bay Brand Manual page 3 Logo Colours"/>
   <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/black-bay-manual-6.jpg" alt="Black Bay Brand Manual page 6 Typography"/>
-  <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/black-bay-manual-8.jpg" alt="Black Bay Brand Manual page 8 typography application"/>
+  <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/black-bay-manual-11.jpg" alt="Black Bay Brand Manual page 8 typography application"/>
 </div>
 
 <div class="text-center pad-top-more push-more">
