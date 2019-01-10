@@ -21,7 +21,7 @@ meta: First Day Kit is an app concept that helps people starting a new job. Jane
   <aside class="unit xs-1 s-1 m-1-4 push">
     <h3>Services</h3>
     <ul class="list-group">
-      <li><p class="push-none">Logo</p></li>
+      <li><p class="push-none">logo</p></li>
       <li><p class="push-none">illustrations</p></li>
       <li><p class="push-none">ux</p></li>
       <li><p class="push-none">art direction</p></li>
