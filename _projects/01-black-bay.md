@@ -21,7 +21,7 @@ meta: Black Bay Horse Farm is a horse farm that Janelle helped rebrand, which in
   <aside class="unit xs-1 m-1-4">
     <h3>Services</h3>
     <ul class="list-group">
-      <li><p class="push-none">Logo</p></li>
+      <li><p class="push-none">logo</p></li>
       <li><p class="push-none">brand guidelines</p></li>
     </ul>
   </aside>

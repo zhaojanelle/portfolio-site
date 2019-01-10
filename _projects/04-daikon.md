@@ -23,7 +23,7 @@ meta: Daikon is a restaurant concept that Japanese inspired and plant-focused. T
     <ul class="list-group">
       <li><p class="push-none">logo</p></li>
       <li><p class="push-none">brand identity</p></li>
-      <li><p class="push-none">Stationery</p></li>
+      <li><p class="push-none">stationery</p></li>
     </ul>
   </aside>
 </div>
