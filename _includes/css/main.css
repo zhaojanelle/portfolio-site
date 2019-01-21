@@ -176,6 +176,10 @@ figure img.hover {
   z-index: -1;
 }
 
+figure a {
+  display: block;
+}
+
 figure a:hover img {
   opacity: 0;
 }
