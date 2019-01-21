@@ -34,7 +34,7 @@ meta: First Day Kit is an app concept that helps people starting a new job. Jane
     <p class="push">The first day of a new job is always overwhelming and stressful. You don't know your coworkers. You're overloaded with new information. And sometimes you don't even know what to eat for lunch. On the employer's side, getting an employee's first day of work right is crucial for employee retention and productivity.</p>
     <h3>The Solution</h3>
     <p class="push">The solution was a web app that companies can customize for new employees. Figuring out what the app should include was finding a balance between providing all the necessary resources while keeping it light and digestible. We distilled it down to four essential elements for the kit: coworkers, food, events, and resources. Take a look for yourself.</p>
-    <div class="big text-center pad-top-more push"><a href="https://xd.adobe.com/view/7b02a001-3034-4690-7cef-9568aa12b8ff-0d33/" class="link-underline" target="_blank">Explore the Interactive Prototype</a></div>
+    <div class="big text-center pad-top-more push"><a href="https://xd.adobe.com/view/7b02a001-3034-4690-7cef-9568aa12b8ff-0d33/" class="link-underline" target="_blank" rel="noopener" rel="noreferrer">Explore the Interactive Prototype</a></div>
   </div>
 </div>
 
