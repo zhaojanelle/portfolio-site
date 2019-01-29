@@ -1,5 +1,5 @@
 markdown: redcarpet
-baseurl: https://zhaojanelle.com
+baseurl: ""
 exclude: ['README.md']
 collections:
   projects:

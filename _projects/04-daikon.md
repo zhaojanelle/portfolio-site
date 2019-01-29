@@ -32,7 +32,7 @@ meta: Daikon is a restaurant concept that Japanese inspired and plant-focused. T
 <p class="project-text">Daikon is the Japanese word for white radish, which is also the base of many of its dishes. The logo was inspired by the shape of the daikon and the hand-drawn letters reflect the artisanal approach of the restaurant.</p>
 <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/daikon-4.jpg" alt="Daikon restaurant business card design"/>
 <img class="img-flex load-hidden drop-shadow" src="{{ site.baseurl }}/images/daikon-5.jpg" alt="Daikon restaurant menu design"/>
-<p class="project-text">Omakase is a Japanese tasting menu, whereby the chef chooses what is in season and pairs best together, giving the customer a complete experience.</p>
+<p class="project-text">Omakase is the name of a Japanese tasting menu, where the chef chooses based on what is in season, giving the customer a complete experience.</p>
 <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/daikon-6.jpg" alt="Daikon restaurant postcard design"/>
 <p class="project-text">Seasonality is an important pillar of the Japanese culture, as it is to vegetarian cooking. The postcard design highlights some of the textures found in the four seasons.</p>
 <img class="img-flex load-hidden drop-shadow push" src="{{ site.baseurl }}/images/daikon-7.jpg" alt="daikon restaurant stationery mockup"/>
