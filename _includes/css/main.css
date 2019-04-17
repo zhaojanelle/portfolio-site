@@ -150,6 +150,10 @@ a:focus {
   transform: rotate(40deg);
 }
 
+.logo-mobile {
+  width: 23px;
+}
+
 .arrow {
   max-width: 15px;
 }
